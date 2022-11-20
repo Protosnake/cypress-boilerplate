@@ -23,6 +23,6 @@ import { expect } from 'chai';
 describe('Chai library', () => {
   it('Chai library', () => {
     expect(2 + 2).equals(4);
-    cy.wrap(2 + 2).should('equals', 4);
-  })
+    cy.wrap(2 + 2).should('equal', 4);
+  });
 });

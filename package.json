@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --headed --no-exit"
+    "test": "npx cypress run --headed --no-exit --spec ./cypress/e2e/firstTest.cy.js",
+    "cypress:open": "npx cypress open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.3.7",
-    "cypress": "^11.0.1"
+    "cypress": "^11.1.0"
   }
 }

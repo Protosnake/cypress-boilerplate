@@ -4,4 +4,3 @@ describe('First test', () => {
     cy.get('title').should('contain', 'Google');
   })
 })
-
